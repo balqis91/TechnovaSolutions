@@ -1,4 +1,5 @@
 #  Technova Solutions Employee & Project Management Dashboard
+<img width="1160" height="645" alt="image" src="https://github.com/user-attachments/assets/44efec4d-46e9-4561-8bad-1b1f1397ea94" />
 
 ##  Overview  
 This project leverages **MySQL** and **Power BI** to analyze employee distribution, project assignments, and organizational performance at Technova Solutions.  
@@ -12,10 +13,7 @@ The solution includes:
 
 ---
 
-##  Dashboards  
 
-### Technova Solutions Dashboard  
-<img width="1160" height="645" alt="image" src="https://github.com/user-attachments/assets/44efec4d-46e9-4561-8bad-1b1f1397ea94" />
 
 
 ### Data Model  
