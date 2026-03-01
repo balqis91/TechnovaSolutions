@@ -1,18 +1,18 @@
-# 🏢 Technova Solutions Employee & Project Management Dashboard
+#  Technova Solutions Employee & Project Management Dashboard
 
-## 📌 Overview  
+##  Overview  
 This project leverages **MySQL** and **Power BI** to analyze employee distribution, project assignments, and organizational performance at Technova Solutions.  
 It demonstrates **database schema design**, **DAX calculations**, and **interactive dashboards** for HR and management decision-making.  
 
 The solution includes:  
-- 🗄️ **SQL Database** with Employees, Departments, and Projects  
-- 📊 **Power BI Dashboard** for employee and project analytics  
-- 🔑 **Key Metrics** such as total employees, projects, and average years of service  
-- 📈 **DAX Measures** for deeper insights  
+-  **SQL Database** with Employees, Departments, and Projects  
+-  **Power BI Dashboard** for employee and project analytics  
+-  **Key Metrics** such as total employees, projects, and average years of service  
+-  **DAX Measures** for deeper insights  
 
 ---
 
-## 📊 Dashboards  
+##  Dashboards  
 
 ### Technova Solutions Dashboard  
 <img width="1160" height="645" alt="image" src="https://github.com/user-attachments/assets/44efec4d-46e9-4561-8bad-1b1f1397ea94" />
@@ -24,7 +24,7 @@ The solution includes:
 
 ---
 
-## ✅ Database Schema  
+##  Database Schema  
 
 **Employees Table**
 - `EmployeeID` (PK)  
@@ -56,7 +56,7 @@ The solution includes:
 
 ---
 
-## 🛠️ DAX Measures  
+##  DAX Measures  
 
 Some DAX calculations used in Power BI:
 
@@ -81,7 +81,7 @@ RecentlyHired = CALCULATE(
     COUNTROWS(Employees),
     FILTER(Employees, Employees[YearsOfService] <= 2)
 )
-🔍 Findings
+ Findings
 Total Employees: 50 across all departments
 
 Total Projects: 50 active projects
@@ -94,7 +94,7 @@ Top Department by Projects: Finance (15 projects)
 
 Top 10 Employees: Cynthia Hines, Jeffrey Evans, Jonathan Holmes, etc.
 
- 📌 Conclusion
+  Conclusion
 The Technova Solutions Dashboard provides HR and leadership teams with insights into workforce distribution, project assignments, and tenure analysis.
 
 Future Improvements
@@ -105,7 +105,7 @@ Track project deadlines vs completion
 
 Include salary and cost analysis
 
-⚙️ Tools Used
+ Tools Used
 MySQL – Database design and schema creation
 
 Power BI – Dashboard creation and interactive reporting
@@ -114,7 +114,7 @@ DAX – Advanced measures and calculations
 
 ER Modeling – Data model design for relational integrity
 
-👩‍💻 Created by Balikisu Ajoke Oniyide
+ Created by Balikisu Ajoke Oniyide
 
 
 
